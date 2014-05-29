@@ -14,7 +14,7 @@ $(document).ready(function(e) {
   $('#B_Vibrar').tap(function(){
     navigator.notification.vibrate(500);
   });
-    $('#B_beep').tap(function(){
+    $('#B_Beep').tap(function(){
     navigator.notification.beep(1);
   });
  },false); //deviceready
